@@ -1,0 +1,11 @@
+framework module TrueMotionCommon {
+  umbrella header "TrueMotionCommon.h"
+
+  export *
+  module * { export * }
+}
+
+module TrueMotionCommon.Swift {
+    header "TrueMotionCommon-Swift.h"
+    requires objc
+}
